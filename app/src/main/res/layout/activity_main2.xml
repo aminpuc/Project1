@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+
+    <TextView
+        android:id="@+id/amin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp"
+        android:text="Amin1"
+        android:textSize="20sp"
+        android:background="@android:color/holo_green_light" />
+
+    <TextView
+        android:id="@+id/amin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/amin1"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp"
+        android:text="Amin2"
+        android:textSize="20sp"
+        android:background="@android:color/holo_orange_light" />
+
+    <TextView
+        android:id="@+id/amin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:padding="5dp"
+        android:text="Aminur"
+        android:textSize="20sp"
+        android:background="@android:color/holo_orange_light" />
+
+    <TextView
+        android:id="@+id/rahman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amin"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp"
+        android:text="Rahman"
+        android:textSize="20sp"
+        android:background="@android:color/holo_orange_light" />
+
+    <TextView
+        android:id="@+id/omar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp"
+        android:text="Omar"
+        android:textSize="20sp"
+        android:background="@android:color/holo_orange_light" />
+
+    <TextView
+        android:id="@+id/omar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp"
+        android:text="Sharif"
+        android:textSize="20sp"
+        android:background="@android:color/holo_orange_light" />
+
+    <TextView
+        android:id="@+id/omar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/omar1"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:padding="5dp"
+        android:text="Ansary"
+        android:textSize="20sp"
+        android:background="@android:color/holo_orange_light" />
+
+    <TextView
+        android:id="@+id/sharmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:text="Sharmin"
+        android:textSize="20sp"
+        android:background="@android:color/holo_orange_light" />
+
+    <TextView
+        android:id="@+id/akter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:text="Akter"
+        android:textSize="20sp"
+        android:background="@android:color/holo_orange_light" />
+</RelativeLayout>
